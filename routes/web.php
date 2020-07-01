@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('layouts.master');
+    return view('welcome');
+});
+Route::get('/data-tables', function () {
+    return view('data-table');
 });
